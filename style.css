@@ -1,0 +1,26 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin-top: 25vh;
+  text-align: center;
+  color: #fafafa;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+#clock {
+  font-weight: 400;
+  font-size: 100px;
+}
+
+#day {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: -2em;
+  margin-bottom: 1em;
+}
