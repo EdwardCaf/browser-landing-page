@@ -12,15 +12,7 @@ body {
   height: 100vh;
 }
 
-#particles-js {
-  position: relative;
-  height: 100vh;
-  z-index: 0;
-}
-
 .container {
-  position: relative;
-  top: -100vh;
   text-align: center;
   margin: auto;
   height: 100vh;
@@ -40,4 +32,23 @@ h1 {
 #day {
   font-weight: 400;
   font-size: 40px;
+}
+
+@media (max-width:700px) {
+  #clock {
+    max-width: 80%;
+    margin: auto;
+    font-size: 4em;
+    font-weight: 400;
+  }
+
+  #day {
+    font-size: 2em;
+  }
+
+  img {
+    margin: auto;
+    max-width: 90%;
+  }
+
 }
