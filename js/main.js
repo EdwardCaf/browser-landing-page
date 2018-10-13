@@ -69,6 +69,6 @@ function hexClock() {
   clock.textContent = clockStr;
 
 }
-
+hexClock();
 // Run app
 setInterval(hexClock, 1000);
